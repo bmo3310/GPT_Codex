@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=67.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpt-codex-scheduler"
+version = "0.1.0"
+description = "Duty roster scheduler for attendings and residents"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
